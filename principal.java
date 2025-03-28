@@ -97,6 +97,43 @@ public class Principal {
 }
 */
 
+/*EJERCICIO 4
+public class Principal {
+    public static void main(String[] args) {
+        // Crear una cajonería con capacidad de 3 cajas
+        Cajoneria cajoneria = new Cajoneria(3);
 
+        // creMOS cajas con diferentes colores y contenidos
+        Caja<String> caja1 = new Caja<>("Rojo");
+        caja1.setContenido("Documentos");
+
+        Caja<Integer> caja2 = new Caja<>("Azul");
+        caja2.setContenido(100);
+
+        Caja<Chocolatina> caja3 = new Caja<>("Verde");
+        caja3.setContenido(new Chocolatina("Ferrero"));
+
+        // agregar las cajas a la cajonería
+        cajoneria.add(caja1);
+        cajoneria.add(caja2);
+        cajoneria.add(caja3);
+
+        // imprimir el contenido de la cajonería antes de eliminar algo
+        System.out.println("Antes de eliminar:");
+        System.out.println(cajoneria);
+
+        // Buscar un elemento
+        System.out.println(cajoneria.search(100)); // Debería encontrarlo en la caja azul
+
+        // eliminar un elemento
+        Object eliminado = cajoneria.delete(100);
+        System.out.println("Elemento eliminado: " + eliminado);
+
+        // Imprimir el contenido de la cajonería después de eliminar
+        System.out.println("Después de eliminar:");
+        System.out.println(cajoneria);
+    }
+}
+*/
 
 
