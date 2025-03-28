@@ -2,7 +2,7 @@ public class TestGenChocolatina {
     public static void main(String[] args) {
         Cajoneria cajoneria = new Cajoneria(5);
 
-        // Crear cajas con chocolatinas
+        // crear cajas con chocolatinas
         Caja<Chocolatina> caja1 = new Caja<>("Rojo");
         caja1.setContenido(new Chocolatina("Milka", 100));
 
@@ -25,7 +25,7 @@ public class TestGenChocolatina {
         cajoneria.add(caja4);
         cajoneria.add(caja5);
 
-        // Imprimir el estado inicial
+        // imprimir el estado inicial
         System.out.println("📦 Estado inicial de la cajoneria:");
         System.out.println(cajoneria);
 
@@ -34,7 +34,7 @@ public class TestGenChocolatina {
         System.out.println("🔍 Buscando 'Snickers (50g)': " + cajoneria.search(new Chocolatina("Snickers", 50)));
         System.out.println("🔍 Buscando 'Ferrero (70g)': " + cajoneria.search(new Chocolatina("Ferrero", 70))); // No existe
 
-        // Prueba de eliminación
+        // prueba de eliminación
         System.out.println("\n🗑 Eliminando 'Ferrero (60g)': " + cajoneria.delete(new Chocolatina("Ferrero", 60)));
 
         // Estado después de eliminar
