@@ -135,5 +135,36 @@ public class Principal {
     }
 }
 */
+/*EJERCICIO 4
+public class Principal {
+    public static void main(String[] args) {
+        Cajoneria cajoneria = new Cajoneria(3);
 
+        Caja<String> caja1 = new Caja<>("rojo");
+        caja1.setContenido("Libro");
+
+        Caja<Integer> caja2 = new Caja<>("amarillo");
+        caja2.setContenido(42);
+
+        Caja<String> caja3 = new Caja<>("verde");
+        caja3.setContenido("Golosina");
+
+        cajoneria.add(caja1);
+        cajoneria.add(caja2);
+        cajoneria.add(caja3);
+
+        System.out.println(cajoneria);
+
+        // Prueba de búsqueda
+        System.out.println("\n🔎 Buscando 'Libro': " + cajoneria.search("Libro"));
+        System.out.println("🔎 Buscando '42': " + cajoneria.search(42));
+        System.out.println("🔎 Buscando 'Chocolate': " + cajoneria.search("Chocolate"));
+
+        // Prueba de eliminación
+        System.out.println("\n🗑 Eliminando 'Libro': " + cajoneria.delete("Libro"));
+        System.out.println("\nEstado después de eliminar:");
+        System.out.println(cajoneria);
+    }
+}
+*/
 
