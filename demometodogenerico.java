@@ -1,7 +1,7 @@
 class DemoMetodoGenerico {
     // Meetodo geneerico para comparar dos arreglos del mismo tipo
     static <T extends Comparable<T>> boolean igualArrays(T[] x, T[] y) {
-        // Si las longitudes son diferentes, los arreglos no son iguales
+        // si las longitudes son diferentes, los arreglos no son iguales
         if (x.length != y.length)
             return false;
 
