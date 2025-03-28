@@ -34,7 +34,7 @@ public class Principal {
 
 /* EJERCICIO 2 
 public class Principal {
-    // Método genérico para mostrar el contenido de una bolsa de cualquier tipo
+    // Metodo genérico para mostrar el contenido de una bolsa de cualquier tipo
     public static <T> void mostrarBolsa(Bolsa<T> bolsa) {
         for (T elemento : bolsa) {
             System.out.println(elemento);
@@ -81,7 +81,7 @@ public class Principal {
         bolsaCho.add(new Chocolatina("Ferrero"));
         bolsaCho.add(new Chocolatina("Nestlé"));
 
-        // Bolsa de Golosinas
+        // Bolsa de Golosinassssssssss
         Bolsa<Golosina> bolsaGol = new Bolsa<>(3);
         bolsaGol.add(new Golosina("Caramelo", 10.5));
         bolsaGol.add(new Golosina("Chicle", 5.2));
@@ -113,7 +113,7 @@ public class Principal {
         Caja<Chocolatina> caja3 = new Caja<>("Verde");
         caja3.setContenido(new Chocolatina("Ferrero"));
 
-        // agregar las cajas a la cajonería
+        // agregar las cajas a la cajoneria
         cajoneria.add(caja1);
         cajoneria.add(caja2);
         cajoneria.add(caja3);
@@ -129,7 +129,7 @@ public class Principal {
         Object eliminado = cajoneria.delete(100);
         System.out.println("Elemento eliminado: " + eliminado);
 
-        // Imprimir el contenido de la cajonería después de eliminar
+        // Imprimir el contenido de la cajoneriia después de eliminar
         System.out.println("Después de eliminar:");
         System.out.println(cajoneria);
     }
@@ -155,12 +155,12 @@ public class Principal {
 
         System.out.println(cajoneria);
 
-        // Prueba de búsqueda
+        // Prueba de busqueda
         System.out.println("\n🔎 Buscando 'Libro': " + cajoneria.search("Libro"));
         System.out.println("🔎 Buscando '42': " + cajoneria.search(42));
         System.out.println("🔎 Buscando 'Chocolate': " + cajoneria.search("Chocolate"));
 
-        // Prueba de eliminación
+        // prueba de eliminacion
         System.out.println("\n🗑 Eliminando 'Libro': " + cajoneria.delete("Libro"));
         System.out.println("\nEstado después de eliminar:");
         System.out.println(cajoneria);
