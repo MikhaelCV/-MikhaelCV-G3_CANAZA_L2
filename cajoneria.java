@@ -31,7 +31,7 @@ public class Cajoneria {
                 return eliminado;
             }
         }
-        return null; // Elemento no encontrado
+        return null; // ellemento no encontrado
     }
 
     @Override
