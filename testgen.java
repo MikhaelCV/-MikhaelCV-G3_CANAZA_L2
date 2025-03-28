@@ -1,5 +1,5 @@
 public class TestGen {
-    // Método genérico para buscar un elemento en un arreglo
+    // metodo genérico para buscar un elemento en un arreglo
     public static <T> boolean exist(T[] array, T elemento) {
         for (T item : array) {
             if (item.equals(elemento)) {
