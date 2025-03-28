@@ -65,5 +65,38 @@ public class Principal {
 */
 
 
+/* EJERCICIO 3
+public class Principal {
+    // Método generico para mostrar el contenido de una bolsa de cualquier tipo
+    public static <T> void mostrarBolsa(Bolsa<T> bolsa) {
+        for (T elemento : bolsa) {
+            System.out.println(elemento);
+        }
+    }
+
+    public static void main(String[] args) {
+        // Bolsa de Chocolatinas
+        Bolsa<Chocolatina> bolsaCho = new Bolsa<>(3);
+        bolsaCho.add(new Chocolatina("Milka"));
+        bolsaCho.add(new Chocolatina("Ferrero"));
+        bolsaCho.add(new Chocolatina("Nestlé"));
+
+        // Bolsa de Golosinas
+        Bolsa<Golosina> bolsaGol = new Bolsa<>(3);
+        bolsaGol.add(new Golosina("Caramelo", 10.5));
+        bolsaGol.add(new Golosina("Chicle", 5.2));
+        bolsaGol.add(new Golosina("Gomita", 8.3));
+
+        // Mostrar contenido de ambas bolsas
+        System.out.println("Contenido de la bolsa de Chocolatinas:");
+        mostrarBolsa(bolsaCho);
+
+        System.out.println("\nContenido de la bolsa de Golosinas:");
+        mostrarBolsa(bolsaGol);
+    }
+}
+*/
+
+
 
 
